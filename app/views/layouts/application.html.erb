@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mypage</title>
+    <title>Hello!</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <div id="menu_box">
+      <ul id="menu">
+        <li id="mnu1"><%= link_to 'HOME' , web_index_path %></li>
+        <li id="mnu2"><%= link_to 'Profile' , profile_index_path %></li>
+        <li id="mnu3"><%= link_to 'Link' %></li>
+        <!--<li id="mnu1"><a href="index.html" class="tooltip"><img src="menu/trans_me.gif" width="72" height="49" alt="HOME" title=""><span class="tooltipbody">TOP PAGE<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu2"><a href="sale.php" class="tooltip"><img src="menu/trans_me.gif" width="120" height="49" alt="売買物件一覧" title=""><span class="tooltipbody">FOR SALE<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu3"><a href="rent.php" class="tooltip"><img src="menu/trans_me.gif" width="120" height="49" alt="賃貸物件一覧" title=""><span class="tooltipbody">FOR RENT<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu4"><a href="purchase.html" class="tooltip" title=""><img src="menu/trans_me.gif" width="114" height="49" alt="不動産買取り" title=""><span class="tooltipbody">買取ります<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu5"><a href="renovation.html" class="tooltip" title=""><img src="menu/trans_me.gif" width="146" height="49" alt="リノベーション事業" title=""><span class="tooltipbody">中古住宅再生事業<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu6"><a href="owner.html" class="tooltip" title=""><img src="menu/trans_me.gif" width="151" height="49" alt="賃貸オーナー様へ" title=""><span class="tooltipbody">賃貸物件の管理<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu7"><a href="qa.html" class="tooltip" title=""><img src="menu/trans_me.gif" width="105" height="49" alt="よくある質問" title=""><span class="tooltipbody">売買・賃貸Q＆A<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu8"><a href="company.html" class="tooltip" title=""><img src="menu/trans_me.gif" width="88" height="49" alt="会社概要" title=""><span class="tooltipbody">ABOUT US<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+        <!--<li id="mnu9"><a href="company.html#map" class="tooltip"><img src="menu/trans_me.gif" width="84" height="49" alt="ACCESS" title=""><span class="tooltipbody">アクセスMAP<span class="tooltipangle"><span class="tooltipangleinner"></span></span></span></a></li>-->
+      </ul>
+    </div>
   </head>
 
   <body>
